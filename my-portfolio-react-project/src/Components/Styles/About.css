@@ -1,0 +1,65 @@
+.About-Me
+{
+    align-items: center;
+    align-content: center;
+    justify-content: space-around;
+    display: flex;
+    
+    position: relative;
+    z-index: 2;
+    clip-path: polygon(
+        0 15%,   
+        100% 0%,  
+        100% 85%,
+        0 100%
+    );
+    margin-top: -75px;
+
+    transform: translateZ(0);
+
+    /* 2. A SOMBRA PARA TESTE: Usei uma cor rosa choque bem forte e um desfoque grande. 
+       Se isto aparecer, o problema está resolvido e você pode voltar para a cor que desejar. */
+    filter: drop-shadow(0px 0px 25px #FF00FF);
+}
+
+.About-Me-Content
+{
+    height: 50%;
+    width: 60%;
+}
+
+.About-Me-Content h1
+{
+    text-align: center;
+}
+
+.About-Me-Content p
+{
+    text-align:justify;
+}
+
+.About-Me-Image
+{
+    display: flex;
+    width: 30%;
+    height: 50%;
+
+    align-items: center;
+    align-content: center;
+    justify-items: center;
+    justify-content: center;
+}
+
+.MyPhoto
+{
+    max-width: 230px;
+    max-height: 230px;
+    object-fit: cover;
+
+    align-self: center;
+    justify-self: center;
+    
+    border-radius: 50%;
+
+    outline: 3px solid #7f6fd4;
+}

@@ -1,0 +1,25 @@
+.Home
+{
+    padding-top: 8rem;
+    padding-left: 7rem;
+    font-size: large;  
+    position: relative;
+    z-index: 1;  
+}
+
+.Home h1
+{
+    font-size: 1.4rem;
+}
+
+.Home h2
+{
+    text-wrap-mode: wrap;
+    font-size: 3rem;
+}
+
+.Home p
+{
+    text-wrap-mode: wrap;
+    font-size: 2rem;
+}

@@ -1,0 +1,19 @@
+{
+    "Dock":
+    {
+        "home": "HOME",
+        "projects": "PROJECTS",
+        "about": "ABOUT ME",
+        "contact": "CONTACT"
+    },
+    "HomeSection":
+    {
+        "title": "WELCOME!",
+        "presentation": "I'm ",
+        "positions":
+        [
+            "Software Developer", "Game Dev"
+        ]
+    }
+
+}

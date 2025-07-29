@@ -1,0 +1,96 @@
+.Dock-Background
+{
+    justify-self: center;
+    margin: 0;
+    margin-top: 10px;
+    padding: 0;
+    
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 20px;
+
+    outline: 1px solid white;
+
+    height: 5rem;
+    width: 85%;
+
+    position: fixed;
+    z-index: 10;
+}
+
+.Section-Selector
+{
+    background: none;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-self: center;
+    align-self: center;
+    width: 70%;
+    justify-content: space-between;
+}
+
+.Selection-Background
+{
+    background: none;
+    border: none;
+    outline: none;
+    box-shadow: none;
+    height: 100%;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.Selection-Background h2{
+    background: none;
+    font-weight: 200;
+}
+
+.Selection-Background:hover
+{
+    cursor: pointer;
+}
+
+.Selection-Background:focus
+{
+    outline: 1px solid white;
+}
+
+.Selection-Background:focus h2
+{
+    font-weight: 600;
+}
+
+.Selection-Background:hover h2
+{
+    font-weight: 600;
+}
+
+.Language-Selector-Background{
+    height: 100%;
+    width: 12%;
+    background: none;
+    display: flex;
+    flex-direction: row;
+
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Language-Selector
+{
+    background-color: white;
+    width: 45px;
+    height: 45px;
+    border-radius: 100%;
+}
+
+.Language-Selector:hover
+{
+    cursor: pointer;
+}
